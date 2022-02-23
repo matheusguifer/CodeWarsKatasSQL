@@ -40,6 +40,22 @@ LIMIT 10;
 ```
 ## 7 Kyu
 
+##### [SQL Bug Fixing: Fix the QUERY - Totaling](https://www.codewars.com/kata/582cba7d3be8ce3a8300007c/train/sql)
+
+```
+SELECT 
+  CAST(s.transaction_date as date) as day,
+  d.name AS department,
+  COUNT(s.id) AS sale_count
+FROM department AS d /* se tirar esse AS faz diferença? */
+LEFT JOIN sale AS s 
+  ON d.id = s.department_id
+GROUP BY 
+  day,
+  department
+ORDER BY day ASC, department ASC, sale_count DESC;
+```
+
 ##### [SQL Basics: Simple JOIN with COUNT](https://www.codewars.com/kata/580918e24a85b05ad000010c/train/sql)
 
 ```
