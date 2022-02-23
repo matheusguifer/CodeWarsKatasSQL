@@ -47,7 +47,7 @@ SELECT
   CAST(s.transaction_date as date) as day,
   d.name AS department,
   COUNT(s.id) AS sale_count
-FROM department AS d /* se tirar esse AS faz diferença? */
+FROM department AS d /* esse AS não faz diferença, só torna mais legível */
 LEFT JOIN sale AS s 
   ON d.id = s.department_id
 GROUP BY 
