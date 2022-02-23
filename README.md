@@ -40,6 +40,19 @@ LIMIT 10;
 ```
 ## 7 Kyu
 
+##### [SQL Basics: Simple JOIN with COUNT](https://www.codewars.com/kata/580918e24a85b05ad000010c/train/sql)
+
+```
+SELECT 
+  p.id,
+  p.name,
+  COUNT(t.name) AS toy_count
+FROM people AS p
+LEFT JOIN toys AS t
+  ON p.id = t.people_id
+GROUP BY p.id;
+```
+
 ##### [Easy SQL: Cube Root and Natural Log](https://www.codewars.com/kata/594a6ad320ac16a54400007f)
 
 ```
