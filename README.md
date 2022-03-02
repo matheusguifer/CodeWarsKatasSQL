@@ -52,6 +52,13 @@ LIMIT 10;
 ```
 ## 7 Kyu
 
+##### [Sum of odd numbers](https://www.codewars.com/kata/55fd2d567d94ac3bc9000064/train/sql)
+
+```
+SELECT   
+ CAST(n^3 AS int) AS res
+FROM nums;
+```
 ##### [SQL Bug Fixing: Fix the QUERY - Totaling](https://www.codewars.com/kata/582cba7d3be8ce3a8300007c/train/sql)
 
 ```
