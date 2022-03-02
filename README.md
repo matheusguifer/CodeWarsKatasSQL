@@ -23,6 +23,18 @@ Why the names Kyu and Dan? The terms are borrowed from a system in Japanese mart
 
 ## 6 Kyu
 
+##### [SQL Basics: Simple HAVING](https://www.codewars.com/kata/58164ddf890632ce00000220/train/sql)
+
+```
+SELECT 
+  age,
+  COUNT(name) AS total_people
+FROM people
+GROUP BY age
+HAVING COUNT(id) >= 10; /* nao pode usar o alias total_people porque o SELECT é processado depois do HAVING */
+```
+
+
 ##### [SQL Basics: Top 10 customers by total payments amount](https://www.codewars.com/kata/580d08b5c049aef8f900007c/train/sql)
 
 ```
