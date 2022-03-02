@@ -23,6 +23,24 @@ Why the names Kyu and Dan? The terms are borrowed from a system in Japanese mart
 
 ## 6 Kyu
 
+
+#### [SQL Basics: Simple UNION ALL](https://www.codewars.com/kata/58112f8004adbbdb500004fe/solutions/sql)
+
+```
+SELECT 
+  'US' as location,
+  *  
+FROM ussales
+WHERE price > 50.00
+UNION ALL
+SELECT 
+  'EU' as location,
+  *  
+FROM eusales
+WHERE price > 50.00
+ORDER BY location DESC, id;
+```
+
 ##### [SQL Basics: Simple HAVING](https://www.codewars.com/kata/58164ddf890632ce00000220/train/sql)
 
 ```
@@ -50,6 +68,7 @@ GROUP BY customer.customer_id
 ORDER BY total_amount DESC
 LIMIT 10;
 ```
+
 ## 7 Kyu
 
 ##### [Sum of odd numbers](https://www.codewars.com/kata/55fd2d567d94ac3bc9000064/train/sql)
