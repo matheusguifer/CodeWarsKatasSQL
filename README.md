@@ -163,6 +163,17 @@ SELECT * FROM students
 ORDER BY id ASC;
 ```
 
+##### [Easy SQL: ASCII Converter](https://www.codewars.com/kata/594804a218e96caa8d00051b/train/sql)
+
+```
+SELECT 
+  id,
+  ASCII(name) AS name,
+  birthday,
+  ASCII(race) AS race
+FROM demographics;
+```
+
 ##### [Hello SQL World!](https://www.codewars.com/kata/581283eb0a5fb13e06000020)
 
 ```
