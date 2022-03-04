@@ -1,25 +1,25 @@
 # CodeWarsKatasSQL
-My solutions to the SQL katas from <a href="https://www.codewars.com">CodeWars</a>. 
-Started in February 17th, 2022 to practice SQL Server.
+
+Minhas soluções para os Katas (exercícios) de SQL do <a href="https://www.codewars.com">CodeWars</a> desde 17 de Fevereiro de 2022, quando passei a usar a plataforma para praticar SQL Server.
 
 <img src="https://www.codewars.com/users/matheusguifer/badges/large" alt="Profile badge" data-canonical-src="https://www.codewars.com/users/matheusguifer/badges/large" style="max-width: 100%;">
 
-# About CodeWars
+# Sobre o Codewars
 
-Codewars is a platform that helps you learn, train, and improve your coding skills by solving programming tasks of many types and difficulty levels. You choose how you would like to learn. Do you want to take on increasingly difficult challenges? Maybe you prefer training through repetition and by improving your solutions. After solving a task, compare your answer with other users and learn from them or help less experienced users by answering their questions.
+Codewars é uma plataforma que te ajuda a aprender, treinar e melhorar suas habilidades de código resolvendo exercícios (chamados de Katas) de programação de vários tipos e níveis de dificuldade. Você escolhe como quer aprender. Quer resolver exercícios cada vez mais desafiadores? Ou prefere treinar através de repetição e melhorando suas soluções? Depois de resolver um Kata, você pode comparar sua solução com a de outros usuários e, com isso, aprender com elas ou ensinar usuários menos experientes respondendo as dúvidas deles.
 
-# Leveling system
+# Sistema de níveis
 
-Ranks are used to indicate the proficiency of users and the difficulty of Kata. There are two classes of ranks, Kyu and Dan, which are divided in 8 levels each. By increasing order of proficiency/difficulty:
+Ranks são usados para indicar a proficiência de usuários e dificuldades dos Katas. Existem duas classes de ranks, Kyu e dan, que são divididos em 8 níveis cada. Em ordem de proficiência/dificuldade:
 
-    8 Kyu to 1 Kyu
-    1 Dan to 8 Dan
+    8 Kyu até 1 Kyu
+    1 Dan até 8 Dan
 
-Why the names Kyu and Dan? The terms are borrowed from a system in Japanese martial arts, which is in turn borrowed from the game of Go. Kyu (or Kyū) indicates the number of degrees away from master level (Dan). This is why they count downward. Once you reach master level, we count upward. Black belts in martial arts are Dan level.
+Por que os nomes Kyu and Dan? São termos emprestados do sistema de artes marciais japonesas, que por sua vez são emprestadas do jogo Go. Kyu (or Kyū) indica o número de graus até o nível mestre (Dan). É por isso que são contados de forma descrescente. Ao alcaçar o nível mestre, passamos a contar de forma crescente. Faixas pretas nas artes marciais são nível Dan.
 
 <img src="https://camo.githubusercontent.com/5f28e2e61b2abbc1144a892d684a6b87e58f5b10526170cf7496012a3dbe08bb/68747470733a2f2f692e696d6775722e636f6d2f566d3737584d762e706e67" alt="CodeWars Leveling System">
 
-# My Solutions
+# Minhas soluções
 
 ## 6 Kyu
 
