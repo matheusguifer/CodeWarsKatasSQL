@@ -24,7 +24,7 @@ Por que os nomes Kyu and Dan? São termos emprestados do sistema de artes marcia
 ## 6 Kyu
 
 
-#### [SQL Basics: Simple UNION ALL](https://www.codewars.com/kata/58112f8004adbbdb500004fe/solutions/sql)
+##### [SQL Basics: Simple UNION ALL](https://www.codewars.com/kata/58112f8004adbbdb500004fe/solutions/sql)
 
 ```
 SELECT 
