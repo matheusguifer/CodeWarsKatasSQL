@@ -107,6 +107,20 @@ LEFT JOIN toys AS t
 GROUP BY p.id;
 ```
 
+##### [SQL with Pokemon: Damage Multipliers](https://www.codewars.com/kata/5ab828bcedbcfc65ea000099/train/sql)
+
+```
+SELECT 
+  p.pokemon_name,
+  p.str * m.multiplier AS modifiedStrength,
+  m.element
+FROM pokemon p
+JOIN multipliers m
+  ON p.element_id = m.id
+WHERE modifiedStrength >= 40 
+ORDER BY modifiedStrength DESC;
+```
+
 ##### [Easy SQL: Cube Root and Natural Log](https://www.codewars.com/kata/594a6ad320ac16a54400007f)
 
 ```
