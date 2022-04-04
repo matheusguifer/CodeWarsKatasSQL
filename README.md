@@ -2,7 +2,7 @@
 
 Minhas soluções para os Katas (exercícios) de SQL do <a href="https://www.codewars.com">CodeWars</a> desde 17 de Fevereiro de 2022, quando passei a usar a plataforma para praticar SQL Server.
 
-<img src="https://www.codewars.com/users/matheusguifer/badges/large" alt="Profile badge" data-canonical-src="https://www.codewars.com/users/matheusguifer/badges/large" style="max-width: 100%;">
+<a href="https://www.codewars.com/users/matheusguifer/stats"><img src="https://www.codewars.com/users/matheusguifer/badges/large" alt="Profile badge" data-canonical-src="https://www.codewars.com/users/matheusguifer/badges/large" style="max-width: 100%;"></a>
 
 # Sobre o Codewars
 
